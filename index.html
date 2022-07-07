@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Fehrenhite to celsius</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="TempCalc">
+        <h1>Please calculate the temperature you'd like to convert.</h1>
+        <label for="temp"></label>
+        <input type="number" name="temp" id="temp">
+
+        <select name="temp-item" id="temp_new">
+            <option value="Feh">fehrenheit</option>
+            <option value="Cel">celcius</option>
+        </select>
+
+        <input type="submit" name="temp" class="sub-data" id="smbtn"><br>
+    
+        <span id="resultContainer"></span>
+    </form>
+    <script src="index.js"></script>
+</body>
+
+</html>
